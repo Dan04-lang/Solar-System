@@ -69,3 +69,25 @@ body{
         transform: rotate(360deg);
     }
 }
+@media (max-width: 768px) {
+    .container {
+        width: 30em;
+        height: 30em;
+    }
+    .sun {
+        top: 10em;
+        left: 10em;
+        width: 8em;
+        height: 8em;
+    }
+    .earth {
+        top: 4em;
+        left: 4em;
+        width: 20em;
+        height: 20em;
+    }
+    .moon {
+        width: 6em;
+        height: 6em;
+    }
+}
